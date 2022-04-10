@@ -1,6 +1,7 @@
 Реализация REST API на Spring Boot.
 
-Самый быстрый способ сделал REST сервис - это создать сервис на Spring boot.
+Этот проект создавался для ознакомления с технологией REST API.
+В проекте используется связка Spring Boot, Hibernate, PostgreSQL.
 
-Давайте создадим новый проект job4j_auth, в качестве сборщика будем использовать Maven, 
-а также используем инструмент Spring Initialzr, который упростит создание схемы стандартного SpringBoot проекта.
+Класс PersonController обрабатывает CRUD запросы, сохраняя, удаляя, изменяя объекты Person в БД.
+Класс ReportsController, используя RestTemplate создаёт запросы для PersonController.
